@@ -8,19 +8,19 @@ const CTA = () => {
         <div className="pt-32 pb-16 px-8 flex flex-col items-center gap-6 text-center relative z-10">
           <div className="badge flex items-center font-mono text-[10px] border border-zinc-200 px-2 py-1 gap-2 uppercase tracking-wider text-zinc-600 bg-white">
             <div className="bg-emerald-900 size-1.5"></div>
-            Get Started
+            Try RecovAI
           </div>
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-7xl font-medium tracking-tight text-zinc-900">
-            <span>Move Faster With</span>
-            <span>Financial Confidence</span>
+            <span>Recover Defaults</span>
+            <span>With AI Intelligence</span>
           </div>
 
           <div className="desc max-w-2xl mt-4">
             <p className="text-zinc-500 text-base leading-relaxed">
-              Finexis gives your team AI-driven clarity, real-time insights, and
-              the control needed to make better financial decisions without
-              manual work.
+              RecovAI gives your team AI-driven routing, real-time defaults, and
+              the control needed to plan better repayment decisions without
+              manual calls
             </p>
           </div>
 

@@ -3,28 +3,28 @@ import React from "react";
 const MainFeatures = () => {
   const featuresData = [
     {
-      title: "Anomaly Detection",
-      desc: "Instantly flag unusual spend, data errors, or unexpected shifts.",
+      title: "Risk Intelligence",
+      desc: "Instantly flag overdue debts, data shifts, or unexpected delays.",
     },
     {
-      title: "AI Forecasting",
-      desc: "Predict cash flow, revenue, and runway with models that adapt as your data changes.",
+      title: "AI Predictions",
+      desc: "Predict recoveries, risk, and defaults with models that adapt as your data changes.",
     },
     {
-      title: "Scenario Modeling",
-      desc: "Simulate best, worst, and base-case financial outcomes to plan decisions with confidence.",
+      title: "Borrower Behavior",
+      desc: "Evaluate high, risks, and base-tier repayment patterns to plan workflows with confidence.",
     },
     {
-      title: "Real-Time Dashboards",
-      desc: "Live financial visibility across KPIs, forecasts, and performance metrics.",
+      title: "Recovery AI Platform",
+      desc: "Live repayment visibility across KPIs, pipelines, and collections metrics.",
     },
     {
-      title: "Tool Integrations",
-      desc: "Connect accounting, banking, and ERP tools in minutes. No complex setup.",
+      title: "Data Integrations",
+      desc: "Connect portfolios, ledgers, and CRM tools in minutes. No complex setup.",
     },
     {
-      title: "Automated Reporting",
-      desc: "Generate clean, ready-to-share reports without manual exports or spreadsheets.",
+      title: "Workflow Automation",
+      desc: "Generate smart, ready-to-route workflows without manual agents or call sheets.",
     },
   ];
 
@@ -42,18 +42,18 @@ const MainFeatures = () => {
         <div className="py-24 px-8 flex flex-col items-center gap-6 text-center border-b border-zinc-200">
           <div className="badge flex items-center font-mono text-[10px] border border-zinc-200 px-2 py-1 gap-2 uppercase tracking-wider text-zinc-600">
             <div className="bg-emerald-950 size-1.5"></div>
-            How Finexis Helps
+            How RecovAI Works
           </div>
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-6xl font-medium tracking-tight text-zinc-900">
-            <span>Built to Remove</span>
-            <span>Financial Guesswork</span>
+            <span>Built to Manage</span>
+            <span>Borrower Escalation</span>
           </div>
 
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
-              From forecasting to reporting, Finexis automates critical finance
-              tasks using AI so teams reduce errors and reclaim time.
+              From predictions to workflows, RecovAI automates critical recovery
+              tasks using AI so teams cut down losses and boost ROI.
             </p>
           </div>
         </div>

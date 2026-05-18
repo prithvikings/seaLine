@@ -39,39 +39,39 @@ const FAQ = () => {
   // Separating into columns to match your designer's explicit order
   const leftColQs = [
     {
-      q: "What is Finexis?",
-      a: "Finexis is an AI-driven financial intelligence platform designed to automate reporting, forecasting, and anomaly detection for modern teams.",
+      q: "What is RecovAI?",
+      a: "RecovAI is an AI-driven repayment intelligence platform designed to automate profiling, collections, and overdue detection for modern teams.",
     },
     {
-      q: "Do I need to know finance to use Finexis?", // Fixed designer's typo
-      a: "No. Finexis translates complex financial data into plain-English insights so founders and operators can make decisions without a CPA.",
+      q: "Do I need to know calling to use RecovAI?", // Fixed designer's typo
+      a: "No. RecovAI translates complex repayment data into plain-English insights so agencies and operators can make decisions without calls.",
     },
     {
-      q: "How does Finexis handle data security?",
+      q: "How does RecovAI handle data security?",
       a: "We use bank-level AES-256 encryption. Your data is siloed, anonymized for model training, and compliant with SOC2 standards.",
     },
     {
-      q: "Is Finexis a waitlist product?",
+      q: "Is RecovAI a waitlist product?",
       a: "Currently, yes. We are onboarding companies in cohorts to ensure our infrastructure scales flawlessly and every team gets dedicated support.",
     },
   ];
 
   const rightColQs = [
     {
-      q: "Who is Finexis built for?",
-      a: "Early-stage founders, scaling CFOs, and lean finance teams who want to eliminate manual spreadsheet errors and reclaim hours of busywork.",
+      q: "Who is RecovAI built for?",
+      a: "Early-stage agencies, scaling NBFC, and lean calling teams who want to eliminate manual collection updates and reclaim hours of busywork.",
     },
     {
-      q: "What tools does Finexis replace?",
-      a: "Finexis handles the work of fragmented FP&A software, manual Excel models, and static reporting dashboards.",
+      q: "What tools does RecovAI replace?",
+      a: "RecovAI handles the work of fragmented call software, manual agent models, and static escalation playbooks.",
     },
     {
-      q: "Can Finexis scale as my company grows?",
-      a: "Absolutely. Our architecture is built to handle millions of transaction rows and integrates directly with enterprise ERPs when you are ready.",
+      q: "Can RecovAI scale as my company grows?",
+      a: "Absolutely. Our architecture is built to handle millions of collections rows and integrates directly with enterprise CRMs when you are ready.",
     },
     {
-      q: "Does Finexis integrate with existing tools?",
-      a: "Yes. We connect seamlessly with Quickbooks, Xero, Stripe, Mercury, and standard banking APIs within minutes.",
+      q: "Does RecovAI integrate with existing tools?",
+      a: "Yes. We connect seamlessly with Salesforce, Zoho, Twilio, Zendesk, and standard banking APIs within minutes.",
     },
   ];
 
@@ -100,7 +100,7 @@ const FAQ = () => {
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
               Clear answers to common questions about setup, security,
-              integrations, and how Finexis fits into your finance stack.
+              integrations, and how RecovAI fits into your lending stack.
             </p>
           </div>
         </div>

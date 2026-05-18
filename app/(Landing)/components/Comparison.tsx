@@ -36,24 +36,24 @@ const CheckIcon = () => (
 const Comparison = () => {
   const comparisonData = [
     {
-      traditional: "Long setup and manual configuration",
-      finexis: "Fast onboarding with minimal setup",
+      traditional: "Huge delays and manual intervention",
+      finexis: "Fast executions with minimal steps",
     },
     {
-      traditional: "Static models and assumptions",
-      finexis: "Adaptive AI forecasting based on live data",
+      traditional: "Static scores and assumptions",
+      finexis: "Adaptive AI escalations based on live data",
     },
     {
-      traditional: "Manual reports updated periodically",
-      finexis: "Real-time insights and automated reporting",
+      traditional: "Manual spreadsheets run excessively",
+      finexis: "Real-time triggers and automated workflows",
     },
     {
-      traditional: "Issues discovered after the fact",
-      finexis: "Proactive anomaly detection before problems grow",
+      traditional: "Defaults recognized way too late ",
+      finexis: "Proactive risk intelligence before defaults grow",
     },
     {
-      traditional: "Breaks down as data and teams grow",
-      finexis: "Built to scale with complex finance operations",
+      traditional: "Breaks down as cases and risk grow",
+      finexis: "Built to scale with massive recovery workflows",
     },
   ];
 
@@ -71,18 +71,18 @@ const Comparison = () => {
         <div className="py-24 px-8 flex flex-col items-center gap-6 text-center border-b border-zinc-200">
           <div className="badge flex items-center font-mono text-[10px] border border-zinc-200 px-2 py-1 gap-2 uppercase tracking-wider text-zinc-600">
             <div className="bg-emerald-950 size-1.5"></div>
-            Why Finexis
+            Why RecovAI
           </div>
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-6xl font-medium tracking-tight text-zinc-900">
-            <span>A Smarter Alternative</span>
-            <span>to Traditional Tools</span>
+            <span>A Smarter AI Workflow</span>
+            <span>to Traditional Teams</span>
           </div>
 
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
-              Finexis replaces manual finance workflows and fragmented tools
-              with AI-driven intelligence built for modern teams.
+              RecovAI replaces manual calling workflows and fragmented tools
+              with AI-driven intelligence built for modern banks.
             </p>
           </div>
         </div>
@@ -94,13 +94,13 @@ const Comparison = () => {
             {/* Left Header */}
             <div className="w-full md:w-1/2 p-6 md:p-8 bg-zinc-50 border-b md:border-b-0 md:border-r border-zinc-200 flex items-center">
               <span className="text-lg text-zinc-600">
-                Traditional Finance Tools
+                Traditional Calling Tools
               </span>
             </div>
             {/* Right Header (Brand Emphasis) */}
             <div className="w-full md:w-1/2 p-6 md:p-8 bg-blue-600 flex items-center">
               <span className="text-lg font-medium text-white">
-                Finexis (AI-Powered)
+                RecovAI (AI-Powered)
               </span>
             </div>
           </div>

@@ -12,7 +12,7 @@ const Navbar = () => {
             <div className="w-[8px] h-[8px] bg-teal-900"></div>
             <div className="w-[8px] h-[8px] bg-white"></div>
           </div>
-          Sealine
+          RecovAI
         </div>
         <div className="navigation_links flex items-center justify-center gap-6">
           {navLink.map((item) => (

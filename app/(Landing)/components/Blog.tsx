@@ -4,21 +4,21 @@ const Blogs = () => {
   const blogsData = [
     {
       date: "FEB 17, 2026",
-      category: "FOUNDER FINANCE",
-      title: "Financial Insights Every Early-Stage Founder Needs",
-      desc: "Learn how AI finance tools help founders gain real-time visibility into cash flow, runway, and key metrics to make decisions.",
+      category: "DEBT OPERATIONS",
+      title: "Repayment Insights Every Early-Stage Manager Needs",
+      desc: "Learn how AI calling tools help agencies gain real-time visibility into default risk rate, and key metrics to make decisions.",
     },
     {
       date: "FEB 13, 2026",
-      category: "FORECASTING",
-      title: "AI Forecasting: A Game-Changer for CFOs",
-      desc: "Learn how AI forecasting tools empower CFOs to make faster, smarter decisions with accurate, real-time financial insights.",
+      category: "COLLECTIONS",
+      title: "AI Collections: A Game-Changer for NBFC",
+      desc: "Learn how AI collections tools empower NBFC to make faster, smarter decisions with accurate, real-time repayment patterns.",
     },
     {
       date: "FEB 1, 2026",
-      category: "EXPENSE AUTOMATION",
-      title: "How AI Expense Automation Saves Time and Reduces Errors",
-      desc: "Explore how AI-powered expense automation tools simplify finance workflows, and give teams clearer visibility into spending.",
+      category: "WORKFLOW ESCALATES",
+      title: "How AI Calling Automation Saves Time and Reduces Losses",
+      desc: "Explore how AI-powered calling automation tools simplify default workflows, and give teams clearer visibility into failures.",
     },
   ];
 
@@ -41,13 +41,13 @@ const Blogs = () => {
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-6xl font-medium tracking-tight text-zinc-900">
             <span>Practical Insights</span>
-            <span>for Modern Finance</span>
+            <span>for Modern Lenders</span>
           </div>
 
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
-              Finexis shares clear, actionable perspectives on AI-driven
-              finance, forecasting, and decision-making to help teams stay
+              RecovAI shares clear, actionable perspectives on AI-driven
+              default, collections, and decision-making to help teams stay
               informed and ahead.
             </p>
           </div>

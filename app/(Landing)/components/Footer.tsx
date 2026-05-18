@@ -40,10 +40,10 @@ const Footer = () => {
                   <div className="w-[8px] h-[8px] bg-teal-900"></div>
                   <div className="w-[8px] h-[8px] bg-white"></div>
                 </div>
-                Sealine
+                RecovAI
               </div>
               <p className="text-sm text-zinc-500 leading-relaxed max-w-sm">
-                AI-powered finance software built to help teams forecast
+                AI-powered calling software built to help banks evaluate
                 smarter, move faster, and stay in control as they scale.
               </p>
             </div>
@@ -102,7 +102,7 @@ const Footer = () => {
         {/* Final Copyright Bar */}
         <div className="px-8 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 bg-white">
           <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase text-center sm:text-left">
-            © 2026 FINEXIS. ALL RIGHTS RESERVED.
+            © 2026 RECOVAI. ALL RIGHTS RESERVED.
           </span>
           <span className="font-mono text-[10px] tracking-widest text-zinc-500 uppercase text-center sm:text-right">
             CREATED BY Prithvi Raj

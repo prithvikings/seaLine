@@ -28,7 +28,7 @@ const Pricing = () => {
     {
       name: "Starter",
       badge: null,
-      desc: "A simple way to explore AI-powered finance insights without upfront commitment.",
+      desc: "A simple way to explore AI-powered default insights without upfront commitment.",
       price: "$0",
       period: "/forever",
       billingText: "No credit card required",
@@ -37,9 +37,9 @@ const Pricing = () => {
       buttonText: "Get Started",
       buttonPrimary: false,
       features: [
-        "Core financial dashboards",
-        "Basic AI forecasting",
-        "Monthly reporting",
+        "Core analytics dashboards",
+        "Basic AI predictions",
+        "Delinquency lists",
         "Standard integrations",
         "Email support",
       ],
@@ -47,7 +47,7 @@ const Pricing = () => {
     {
       name: "Growth",
       badge: "MOST POPULAR",
-      desc: "Built for teams that need faster insights, automation, and better visibility.",
+      desc: "Built for teams that need faster recovery, automation, and better visibility.",
       price: "$16",
       period: "/monthly",
       billingText: "Billed yearly",
@@ -56,9 +56,9 @@ const Pricing = () => {
       buttonText: "Get Started",
       buttonPrimary: true,
       features: [
-        "Advanced forecasting models",
-        "Real-time anomaly detection",
-        "Automated reports",
+        "Advanced predictions models",
+        "Real-time overdue detection",
+        "Automated routing",
         "Priority integrations",
         "Team access",
       ],
@@ -66,7 +66,7 @@ const Pricing = () => {
     {
       name: "Scale",
       badge: null,
-      desc: "Designed for growing companies with complex financial workflows and higher data volume.",
+      desc: "Designed for growing companies with complex repayment workflows and higher data volume.",
       price: "$59",
       period: "/monthly",
       billingText: "Billed yearly",
@@ -75,9 +75,9 @@ const Pricing = () => {
       buttonText: "Get Started",
       buttonPrimary: false,
       features: [
-        "Custom AI forecasting models",
-        "Advanced anomaly detection",
-        "Real-time dashboards",
+        "Custom AI predictions models",
+        "Advanced overdue detection",
+        "Real-time AI calling",
         "Role-based access control",
         "Dedicated onboarding",
       ],
@@ -109,7 +109,7 @@ const Pricing = () => {
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
               Flexible plans designed to support early teams today and complex
-              finance operations as your company scales.
+              recovery pipelines as your company scales.
             </p>
           </div>
         </div>

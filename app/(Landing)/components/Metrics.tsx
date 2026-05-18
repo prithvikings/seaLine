@@ -4,23 +4,23 @@ const Metrics = () => {
   const metricsData = [
     {
       value: "96%",
-      label: "Finance Workflows Automated",
-      description: "Early-stage startups and growing finance teams",
+      label: "Collection Routes Automated",
+      description: "Leading banks and modern non-banking companies",
     },
     {
       value: "40%",
-      label: "Faster Financial Reporting",
-      description: "Automated reporting and forecasting workflows",
+      label: "Faster Default Predictions",
+      description: "Intelligent overdue tracking and AI workflows",
     },
     {
       value: "8x",
-      label: "Time Saved On Operations",
-      description: "Replaced manual spreadsheets and reconciliations",
+      label: "Drop In Collection Costs",
+      description: "Replaced manual call sheets and data extractions",
     },
     {
       value: "95%",
-      label: "Faster Financial Reporting",
-      description: "AI-powered forecasting and anomaly detection",
+      label: "Higher Repayment Successes",
+      description: "AI-powered escalations and borrower tracking",
     },
   ];
 
@@ -36,18 +36,18 @@ const Metrics = () => {
         <div className="py-20 px-8 flex flex-col items-center gap-6 text-center border-b border-zinc-200">
           <div className="badge flex items-center font-mono text-[10px] border border-zinc-200 px-2 py-1 gap-2 uppercase tracking-wider text-zinc-600">
             <div className="bg-emerald-950 size-1.5"></div>
-            Measurable Results
+            Operational Impact
           </div>
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-6xl font-medium tracking-tight text-zinc-900">
-            <span>Real Impact Across</span>
-            <span>Finance Teams</span>
+            <span>AI-Powered Systems</span>
+            <span>Drive Returns</span>
           </div>
 
           <div className="desc max-w-lg mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
-              Teams using AI-driven finance workflows report faster reporting
-              cycles, higher forecast accuracy, and significant time savings.
+              Banks using AI-driven recovery workflows notice earlier default
+              detections, smarter risk predictions, and massive cost savings.
             </p>
           </div>
         </div>

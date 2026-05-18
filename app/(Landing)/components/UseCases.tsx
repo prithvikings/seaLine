@@ -31,18 +31,18 @@ const UseCases = () => {
         <div className="py-24 px-8 flex flex-col items-center gap-6 text-center border-b border-zinc-200">
           <div className="badge flex items-center font-mono text-[10px] border border-zinc-200 px-2 py-1 gap-2 uppercase tracking-wider text-zinc-600">
             <div className="bg-emerald-950 size-1.5"></div>
-            Built For Finance Leaders
+            Built For Recovery Agents
           </div>
 
           <div className="title flex flex-col items-center justify-center text-5xl md:text-6xl font-medium tracking-tight text-zinc-900">
-            <span>Designed for Real</span>
-            <span>Decision Makers</span>
+            <span>Engineered for AI</span>
+            <span>Debt Operations</span>
           </div>
 
           <div className="desc max-w-xl mt-2">
             <p className="text-zinc-500 text-sm leading-relaxed">
-              Finexis adapts to CFOs, founders, and finance teams who need
-              accurate insights without complex tools or heavy setup.
+              RecovAI adapts to banks, lenders, and recovery teams who need
+              precise insights without complex tools or heavy setup.
             </p>
           </div>
         </div>
@@ -53,18 +53,18 @@ const UseCases = () => {
           <div className="w-full md:w-1/2 flex flex-col order-1 md:order-1 md:border-r border-zinc-200 bg-white">
             <div className="p-10 md:p-12 flex-grow">
               <h3 className="text-2xl font-medium text-zinc-900 mb-4">
-                Financial Control at Scale
+                Borrower Recovery at Scale
               </h3>
               <p className="text-sm text-zinc-500 leading-relaxed">
-                Finexis gives CFOs real-time visibility, accurate forecasting,
-                and confidence across complex financial operations.
+                RecovAI gives risk real-time visibility, accurate predictions,
+                and confidence across complex collections operations.
               </p>
             </div>
             <div className="flex flex-col">
               {[
-                "Real-time financial visibility",
-                "Accurate AI forecasting",
-                "Risk and variance detection",
+                "Real-time borrower visibility ",
+                "Accurate risk profiling",
+                "Overdue account recognition",
               ].map((item, i) => (
                 <div
                   key={i}
@@ -95,18 +95,18 @@ const UseCases = () => {
           <div className="w-full md:w-1/2 flex flex-col order-1 md:order-2 bg-white">
             <div className="p-10 md:p-12 flex-grow">
               <h3 className="text-2xl font-medium text-zinc-900 mb-4">
-                Automate Finance Tasks
+                Automate Recovery Work
               </h3>
               <p className="text-sm text-zinc-500 leading-relaxed">
-                Finexis removes repetitive finance tasks and day-to-day work so
-                teams can focus on analysis instead of manual reporting.
+                RecovAI removes repetitive calling tasks and day-to-day work so
+                teams can focus on insights instead of manual operations.
               </p>
             </div>
             <div className="flex flex-col">
               {[
-                "Automated financial reporting",
-                "Error and anomaly alerts",
-                "Faster monthly close",
+                "Automated borrower contact   ",
+                "Delay and default alerts",
+                "Faster ROI intervals",
               ].map((item, i) => (
                 <div
                   key={i}
@@ -125,18 +125,18 @@ const UseCases = () => {
           <div className="w-full md:w-1/2 flex flex-col order-1 md:order-1 md:border-r border-zinc-200 bg-white">
             <div className="p-10 md:p-12 flex-grow">
               <h3 className="text-2xl font-medium text-zinc-900 mb-4">
-                Faster Strategic Decisions
+                Quicker Escalation Routing
               </h3>
               <p className="text-sm text-zinc-500 leading-relaxed">
-                Finexis helps founders understand burn, runway, and growth
+                RecovAI helps agencies understand risk, delays, and payout
                 trends without relying on manual reports or spreadsheets.
               </p>
             </div>
             <div className="flex flex-col">
               {[
-                "Burn and runway clarity",
-                "Growth trend insights",
-                "Instant decision signals",
+                "Risk and return clarity",
+                "Borrower risk scoring",
+                "Automated action routing",
               ].map((item, i) => (
                 <div
                   key={i}
